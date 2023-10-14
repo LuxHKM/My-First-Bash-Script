@@ -12,4 +12,4 @@ purpleColour="\e[0;35m\033[1m"
 turquoiseColour="\e[0;36m\033[1m"
 grayColour="\e[0;37m\033[1m"
 
-echo -e "\n${yellowColour} [+]${endColour} This is your Private IP: ${blueColour}$(hostname -I | awk '{print $1}')${endColour}"
+echo -e "\n${yellowColour} [+]${endColour} This is your Private IP -> ${redColour}$(hostname -I | awk '{print $1}')${endColour}"
